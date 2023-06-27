@@ -27,7 +27,7 @@ SHA-2 is a stronger algorithm, and it is replacing MD5. The SHA family is the ne
 Download the source code here.
 
 Fig 1. Running the program, compare different algorithms.
-<img src="hasproperties/fig1.png">
+<img src="hashproperties/fig1.png">
 
 Fig 2. Running the program, comparing and contrasting different outputs.
 
