@@ -26,11 +26,11 @@ SHA-512 (512 bits)
 SHA-2 is a stronger algorithm, and it is replacing MD5. The SHA family is the next-generation algorithms. The following program shows how to implement modern hashing algorithms with C#.
 <p align="center">
  Fig 1. Running the program, compare different algorithms.
-<div><img src="hashproperties/fig1.png"></div>
+<div><img src="hashproperties/fig1.png" align="center"></div>
 </p>
 <p align="center">
 Fig 2. Running the program, comparing and contrasting different outputs.
-<div><img src="hashproperties/fig1.png"></div>
+<div><img src="hashproperties/fig2.png" align="center"></div>
 </p>
 
 When choosing a hashing algorithm, use SHA-256 or higher as they are currently the most secure. In production implement SHA-256 or higher.
