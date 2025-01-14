@@ -8,8 +8,9 @@ The output has a fixed length.
 The hash function is one-way and is not reversible.
 Two different input values will rarely result in the same hash values.
 Hashing algorithms
+<p>
 The 8-bit checksum is one of the first hashing algorithms, and it is the simple form of a hash function. An 8-bit checksum calculates the hash by converting the message into binary numbers and then organizing the string of binary numbers into 8-bit chucks. The algorithm adds up the 8-bit values. The final step is to convert the result using a process called 2's complement.
-
+</p>
 Modern Hashing Algorithms
 Two of the most popular modern hashing algorithms are MD5 and SHA.
 
@@ -24,11 +25,6 @@ SHA-256 (256 bits)
 SHA-384 (384 bits)
 SHA-512 (512 bits)
 SHA-2 is a stronger algorithm, and it is replacing MD5. The SHA family is the next-generation algorithm. The following program shows how to implement modern hashing algorithms with C#.
-<p align="center">Fig 1. Running the program, compare different algorithms.</p>
-<div><img src="images/fig1.png"></div>
-<p align="center">Fig 2. Running the program, comparing and contrasting different outputs.</p>
-<div><img src="images/fig2.png"></div>
-
 
 When choosing a hashing algorithm, use SHA-256 or higher as they are currently the most secure. In production implement SHA-256 or higher.
 To compile and run  the example, you must have the <i>msbuild</i> tool and the <i>mono runtime environment</i>, and use the following commands to download and install it.
@@ -47,3 +43,7 @@ Finally, change into the <i>Debug</i> directory and run the app.
 cd CreatingHash/bin/Debug
 mono CreatingHash.exe
 </tt>
+<p align="center">Fig 1. Running the program, compare different algorithms.</p>
+<div><img src="images/fig1.png"></div>
+<p align="center">Fig 2. Running the program, comparing and contrasting different outputs.</p>
+<div><img src="images/fig2.png"></div>
